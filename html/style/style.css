@@ -1,6 +1,8 @@
-td{
-    color: deeppink;
+td, th{
+    color: saddlebrown;
     border: 1px solid grey;
+    text-align: center;
+    padding: 10px;
 }
 table{
     border-collapse: collapse;

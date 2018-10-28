@@ -18,6 +18,138 @@
 
         </tr>
     </table>
+    <!--Nagłówki-->
+    <table>
+        <tr>
+            <th>Imię</th>
+            <th>Nazwisko</th>
+            <th>Wiek</th>
+
+        </tr>
+        <tr>
+            <td>Agnieszka</td>
+            <td>Nowak</td>
+            <td>30</td>
+        </tr>
+        </table>
+
+        <!--Nagłówki kolumny i wiersze-->
+
+        <table>
+        <tr>
+            <th></th>
+            <th scope="col">Nagłówek pierwszej kolumny</th>
+            <th scope="col">Nagłówek drugiej kolumny</th>
+         </tr>
+        <tr>
+            <th scope="row">Nagłówek pierwszego wiersza</th>
+            <td>Dane 1</td>
+            <td>Dane 2</td>
+        </tr>
+        <tr>
+            <th scope="row">Nagłówek drugiego wiersza</th>
+            <td>Dane 3</td>
+            <td>Dane 4</td>
+        </tr>
+        </table>
+        <hr>
+        <!-------------------Łączenie kolumn-------------------->
+
+        <table>
+        <tr>
+            <th></th>
+            <th scope="col">Poniedziałek</th>
+            <th scope="col">Wtorek</th>
+            <th scope="col">Środa</th>
+         </tr>
+        <tr>
+            <th scope="row">15:00</th>
+            <td>Judo</td>
+            <td>Kido</td>
+            <td>Balet</td>
+        </tr>
+        <tr>
+            <th scope="row">16:00</th>
+            <td colspan="3">Boks</td>
+        </tr>
+        <tr>
+            <th scope="row">17:00</th>
+            <td>KSW</td>
+            <td colspan="2">Zapasy</td>
+        </tr>
+        </table><br><hr>
+        <!--Łączenie wierszy-->
+
+        <table>
+        <tr>
+            <td>1 komórka</td>
+            <td>2 komórka</td>
+            <td>3 komórka</td>
+        </tr>
+         <tr>
+            <td>4 komórka</td>
+            <td>5 komórka</td>
+            <td>6 komórka</td>
+        </tr>
+         <tr>
+            <td>8 komórka</td>
+            <td>9 komórka</td>
+        </tr>
+        </table>
+        <hr>
+
+
+        <table>
+        <tr>
+            <th scope="col" colspan="5">Header</th>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="3">Left Index</th>
+            <td colspan="2">text</td>
+            <td><img src="img/Polska-mini.jpg"></td>
+            <td><img src="img/Bialorus-mini.png"></td>
+        </tr>
+        <tr>
+        <td><img src="img/Polska-mini.jpg"></td>
+        <td colspan="3">text</td>
+        </tr>
+        <tr>
+            <td colspan="4">text</td>
+        </tr>
+        </table>
+        <hr>
+        <table>
+        <tr>
+            <th>Zmienna A</th>
+            <th>Zmienna B</th>
+            <th>Suma</th>
+         </tr>
+        <thead>
+        <tbody>
+        <tr>
+            <td>3</td>
+            <td>2</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>12</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>22</td>
+            <td>45</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>39</td>
+                <td>36</td>
+                <td>75</td>
+            </tr>
+        </tfoot>
+        </table>
 
     </body>
 </html>

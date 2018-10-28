@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style/style_Form.css">
+        <title>Pierwsza strona</title>
+    </head>
+    <body>
+        <!--method post/get-->
+    <form method="post">
+        <label for="Login">Login: <input type="text" name="login"></label><br>
+        <label>Hasło: </label>
+        <input type="password" name="pass"><br>
+        <input type="submit" value="Wyślij">
+    </form>
+    <hr>
+    <fieldset>
+        <legend>Wybory 2018</legend><br>
+    <from id="glosowanie" method="get" action="./glosowanie.html">
+        <label>Nick :</label>
+        <input type="text" name="nick"><br>
+        <input type="radio" name="kandydat" value="K"> Kowal<br>
+        <input type="radio" name="kandydat" value="N"> Nowak<br>
+        <input type="radio" name="kandydat" value="K"> Kowalski<br>
+        <input type="radio" name="kandydat" value="K"> Kot<br>
+        <input type="radio" name="kandydat" value="L"> Lee<br>
+        <input type="submit" name="przycisk" value="Zagłosuj">
+    </from>
+    </fieldset>
+
+    <from action="glosowanie.html">
+    <input
+           type="text"
+           name="imie"
+           id="imie"
+           placeholder="Imię"
+           pattern="[a-z],[2-15]"
+           title="Podaj swoje imię, możesz wprowadzić tylko litery"
+           required><br>
+
+    <input type="text" name="nazwisko" id="nazwisko" placeholder="Nazwisko" required><br>
+
+    <input type="email" name="mail" placeholder="przykladowy@gmail.com" id="mail"><br>
+    <input type="number" name="wiek" placeholder="Wiek">
+    <input type="submit" name="przycisk" value="Zatwierdź">
+    Narodowość:
+    <input type="radio" name="kraj" value="Polska">Polska
+    <input type="radio" name="kraj" value="Białoruś">Białoruś
+    <input type="radio" name="kraj" value="Hiszpania">Hiszpania<br>
+     <input type="submit" name="przycisk" value="Zatwierdź">
+    </from>
+    </body>
+</html>

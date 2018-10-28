@@ -1,0 +1,10 @@
+#ferrari{
+    list-style-image: url(../img/f-mini.png);
+
+}
+#bmw{
+    list-style-image: url(../img/b-mini.png);
+}
+#audi{
+    list-style-image: url(../img/a-mini.png);
+}
